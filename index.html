@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance Report</title>
+</head>
+<body>
+    <h1>Attendance Report</h1>
+
+    <h2>Present Students</h2>
+    <ul>
+        {% for student in present_data %}
+            <li>{{ student.name }} - {{ student.roll_number }} - Connected at: {{ student.connection_time }}</li>
+        {% endfor %}
+    </ul>
+
+    <h2>Absent Students</h2>
+    <ul>
+        {% for student in absent_data %}
+            <li>{{ student.name }} - {{ student.roll_number }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

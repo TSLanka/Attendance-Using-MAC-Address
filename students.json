@@ -1,0 +1,24 @@
+{
+    "students": [
+        {
+            "name": "Teja Subhash Lanka",
+            "roll_number": "VU21CSEN0101559",
+            "mac_id": "6c:03:b5:94:9f:f2"
+        },
+        {
+            "name": "Jane Smith",
+            "roll_number": "789012",
+            "mac_id": "AA:BB:CC:DD:EE:FF"
+        },
+        {
+            "name": "Alice Johnson",
+            "roll_number": "345678",
+            "mac_id": "12:34:56:78:90:AB"
+        },
+        {
+            "name": "Bob Brown",
+            "roll_number": "901234",
+            "mac_id": "CD:EF:01:23:45:67"
+        }
+    ]
+}
