@@ -1,5 +1,4 @@
-# Attendance-Using-MAC-Address
-# Attendance Tracking System
+# Attendance Tracking System Using-MAC-Address
 
 This is a simple Flask-based web application that tracks attendance of students based on their device connections.
 
